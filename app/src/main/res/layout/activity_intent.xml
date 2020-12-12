@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    tools:context=".IntentActivity">
+
+    <EditText
+        android:id="@+id/etNpm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NPM"
+        android:layout_marginBottom="8dp"
+        />
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Mahasiswa"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="8dp"
+        />
+
+    <EditText
+        android:id="@+id/etIpk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IPK"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etJumlahMatakuliah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Matakuliah"
+        android:inputType="number"
+        android:layout_marginBottom="8dp"
+
+        />
+
+
+
+        <Button
+            android:id="@+id/btIntent1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intent"
+            android:layout_margin="8dp"
+            />
+
+        <Button
+            android:id="@+id/btIntent2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intent Parcelable"
+            android:layout_margin="8dp"
+            />
+
+</LinearLayout>
