@@ -46,9 +46,16 @@
 
         />
 
+    <EditText
+        android:id="@+id/etNomorTelepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Telepon"
+        android:inputType="phone"
+        android:layout_marginBottom="8dp"
+        />
 
-
-        <Button
+    <Button
             android:id="@+id/btIntent1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -56,12 +63,20 @@
             android:layout_margin="8dp"
             />
 
-        <Button
-            android:id="@+id/btIntent2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Intent Parcelable"
-            android:layout_margin="8dp"
-            />
+    <Button
+        android:id="@+id/btIntent2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent Parcelable"
+        android:layout_margin="8dp"
+        />
+
+    <Button
+        android:id="@+id/btDial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial"
+        android:layout_margin="8dp"
+        />
 
 </LinearLayout>
