@@ -16,4 +16,5 @@
     <string name="mul">*</string>
     <string name="div">/</string>
     <string name="result">Result</string>
+    <string name="change_language">Change language</string>
 </resources>
