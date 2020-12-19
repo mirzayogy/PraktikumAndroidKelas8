@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Praktikum Android Kelas 8</string>
+    <string name="npm">NPM</string>
+    <string name="student_name">Student Name</string>
+    <string name="ipk">IPK</string>
+    <string name="subjects_count">Subject Count</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="intent">Intent</string>
+    <string name="intent_parcelable">Intent Parcelable</string>
+    <string name="dial">Dial</string>
+    <string name="finish">Finish</string>
+    <string name="firstNumber">First Number</string>
+    <string name="secondNumber">Second Number</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="mul">*</string>
+    <string name="div">/</string>
+    <string name="result">Result</string>
 </resources>

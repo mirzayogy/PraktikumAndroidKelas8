@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,19 +13,19 @@
             android:id="@+id/etNumber1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Angka Pertama"
+            android:hint="@string/firstNumber"
             android:layout_marginBottom="8dp"
             android:inputType="numberDecimal"
-            />
+            android:autofillHints="@string/firstNumber" />
         <EditText
             android:id="@+id/etNumber2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Angka Kedua"
+            android:hint="@string/secondNumber"
             android:inputType="numberDecimal"
             android:layout_marginBottom="8dp"
 
-            />
+            android:autofillHints="" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,36 +37,36 @@
                 android:id="@+id/btAdd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+"
+                android:text="@string/add"
                 android:layout_margin="8dp"
                 android:textSize="28sp"
-                />
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:id="@+id/btSub"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-"
+                android:text="@string/sub"
                 android:layout_margin="8dp"
                 android:textSize="28sp"
-                />
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:id="@+id/btMul"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="*"
+                android:text="@string/mul"
                 android:layout_margin="8dp"
                 android:textSize="28sp"
-                />
+                style="?android:attr/buttonBarButtonStyle" />
             <Button
                 android:id="@+id/btDiv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="/"
+                android:text="@string/div"
                 android:layout_margin="8dp"
                 android:textSize="28sp"
-                />
+                style="?android:attr/buttonBarButtonStyle" />
         </LinearLayout>
 
         <TextView
@@ -75,7 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:text="Hasil"
+            android:text="@string/result"
             android:textSize="28sp"
             />
 

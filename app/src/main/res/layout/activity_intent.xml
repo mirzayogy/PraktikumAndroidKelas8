@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,52 +13,52 @@
         android:id="@+id/etNpm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="NPM"
+        android:hint="@string/npm"
         android:layout_marginBottom="8dp"
-        />
+        android:autofillHints="@string/npm"
+        android:inputType="text" />
     <EditText
         android:id="@+id/etNama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nama Mahasiswa"
+        android:hint="@string/student_name"
         android:inputType="textPersonName"
         android:layout_marginBottom="8dp"
-        />
+        android:autofillHints="@string/student_name" />
 
     <EditText
         android:id="@+id/etIpk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="IPK"
+        android:hint="@string/ipk"
         android:inputType="numberDecimal"
         android:layout_marginBottom="8dp"
-
-        />
+        android:autofillHints="@string/ipk" />
 
     <EditText
         android:id="@+id/etJumlahMatakuliah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Jumlah Matakuliah"
+        android:hint="@string/subjects_count"
         android:inputType="number"
         android:layout_marginBottom="8dp"
 
-        />
+        android:autofillHints="@string/subjects_count" />
 
     <EditText
         android:id="@+id/etNomorTelepon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nomor Telepon"
+        android:hint="@string/phoneNumber"
         android:inputType="phone"
         android:layout_marginBottom="8dp"
-        />
+        android:autofillHints="@string/subjects_count" />
 
     <Button
             android:id="@+id/btIntent1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Intent"
+            android:text="@string/intent"
             android:layout_margin="8dp"
             />
 
@@ -67,7 +66,7 @@
         android:id="@+id/btIntent2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Intent Parcelable"
+        android:text="@string/intent_parcelable"
         android:layout_margin="8dp"
         />
 
@@ -75,7 +74,7 @@
         android:id="@+id/btDial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dial"
+        android:text="@string/dial"
         android:layout_margin="8dp"
         />
 
